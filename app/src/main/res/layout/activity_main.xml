@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja_claro"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/litaimg" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="Cadastrar Passageiros"
+        android:textSize="16sp"
+        app:backgroundTint="#CDA43B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/buttonRelatorio"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="Relatórios"
+        android:textSize="16sp"
+        app:backgroundTint="#CDA43B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCadastrar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
